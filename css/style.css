@@ -104,6 +104,9 @@ h2 {
   outline: none;
   box-shadow: none;
 }
+.offcanvas.show {
+  flex-direction: column;
+}
 /**********************************Banner-section**************************/
 
 .banner {
@@ -317,6 +320,10 @@ h2 {
 .ftr-btm {
   background: #18212d;
   /* padding: 18px 0; */
+}
+
+.footer-form input {
+  color: white;
 }
 
 /************************************Media queries************************/

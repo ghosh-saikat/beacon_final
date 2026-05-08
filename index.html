@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beacon_final_assessment</title>
+    <link rel="icon" href="./assets/Group 1707488903.png" type="image/x-icon" />
 
     <!----------------------------------Bootstrap-CSS-------------------------------->
     <link
@@ -43,7 +44,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
-              class="offcanvas offcanvas-end justify-content-end"
+              class="offcanvas offcanvas-end"
               id="offcanvasWithBothOptions"
               data-bs-target="#offcanvasWithBothOptions"
               data-bs-scroll="true"
@@ -60,9 +61,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">About Us</a>
                 </li>
-
-                <a class="primary-bnt" href="#">Contact Us</a>
               </ul>
+              <div class="bnt text-center">
+                <a class="primary-bnt" href="#">Contact Us</a>
+              </div>
             </div>
           </nav>
         </div>
@@ -331,11 +333,13 @@
           <div class="col-3">
             <div>
               <div class="ftr-logo">
-                <img
-                  class="object-fit-cover"
-                  src="./assets/ftr-logo.png"
-                  alt=""
-                />
+                <a href="./index.html">
+                  <img
+                    class="object-fit-cover"
+                    src="./assets/ftr-logo.png"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -385,14 +389,16 @@
               <li>
                 <form action="">
                   <div
-                    class="d-flex align-items-center justify-content-between"
+                    class="footer-form d-flex align-items-center justify-content-between"
                   >
                     <input
                       type="email"
                       placeholder="Enter Your Email"
                       class="ftr-email"
                     />
-                    <img class="send-icon" src="./assets/send.png" alt="" />
+                    <a href="#">
+                      <img class="send-icon" src="./assets/send.png" alt=""
+                    /></a>
                   </div>
                 </form>
               </li>
@@ -420,10 +426,9 @@
       </div>
       <footer class="ftr-btm">
         <div class="full-line"></div>
-        <div class="text-center">
-          <a class="mt-4" href="#"
-            >© 2024 Beacon One Capital. All Rights Reserved.
-          </a>
+        <div class="text-center mt-4 text-white">
+          © 2024
+          <a class="" href="#">Beacon One Capital </a>. All Rights Reserved.
         </div>
       </footer>
     </footer>
