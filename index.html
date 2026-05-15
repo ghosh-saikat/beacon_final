@@ -24,57 +24,58 @@
   </head>
   <body>
     <header>
-      <div class="container-1400">
-        <div>
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand position-absolute z-1 top-0" href="#"
-              ><img
-                class="nav-logo w-100 h-100 object-fit-cover"
-                src="./assets/logo.png"
+      <div class="container" style="max-width: 1324px">
+        <nav class="navbar navbar-expand-lg">
+          <div class="navbar-logo position-absolute z-1">
+            <a href="#">
+              <img
+                class="logo-img"
+                src="./assets/Group 1707488906.png"
                 alt=""
-            /></a>
-            <button
-              class="navbar-toggler ms-auto"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasWithBothOptions"
-              aria-controls="offcanvasWithBothOptions"
-              aria-label="Toggle navigation"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            id="offcanvasWithBothOptions"
+            data-bs-target="#offcanvasWithBothOptions"
+            data-bs-scroll="true"
+          >
+            <ul
+              class="navbar-nav text-center d-lg-flex align-items-lg-center justify-content-lg-end ms-auto"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="offcanvas offcanvas-end"
-              id="offcanvasWithBothOptions"
-              data-bs-target="#offcanvasWithBothOptions"
-              data-bs-scroll="true"
-            >
-              <ul
-                class="navbar-nav text-center d-lg-flex align-items-lg-center justify-content-lg-end ms-auto"
-              >
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Philosophy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Asset Classes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-              </ul>
-              <div class="bnt text-center">
-                <a class="primary-bnt" href="#">Contact Us</a>
-              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Philosophy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Asset Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+            <div class="bnt text-center">
+              <a class="primary-bnt" href="#">Contact Us</a>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
     </header>
 
     <main>
       <!------------------------------Banner-section------------------------->
       <section class="banner-section">
-        <div class="container-1500">
+        <div class="container" style="max-width: 1424px">
           <div class="banner position-relative">
             <div class="text-center">
               <h1 class="lh-sm">
@@ -95,7 +96,7 @@
               <div class="banner-btm mx-auto">
                 <img
                   class="h-100 w-100 object-fit-cover"
-                  src="./assets/banner-btm.png"
+                  src="./assets/banner.png"
                   alt=""
                 />
               </div>
@@ -107,7 +108,7 @@
       <!-------------------------------------About us section---------------------------->
 
       <section class="aboutus-section">
-        <div class="container-1110">
+        <div class="container" style="max-width: 1134px">
           <div
             class="row d-flex align-items-center justify-content-center flex-wrap flex-column flex-lg-row"
           >
@@ -149,7 +150,7 @@
       <!-------------------------------Assets-section----------------------------------->
 
       <section class="assets-section">
-        <div class="container-1500">
+        <div class="container" style="max-width: 1424px">
           <div class="asset-hdr mx-auto">
             <h2 class="text-center">
               Let’s build something extraordinary together.
@@ -248,7 +249,7 @@
 
       <!---------------------------------Testimonial-section----------------------->
       <section class="testimonial-section">
-        <div class="container-1110">
+        <div class="container" style="max-width: 1134px">
           <div class="text-center">
             <p class="testimonial-hdr">Testimonial</p>
             <h2 class="my-4">What people say about Us</h2>
@@ -270,7 +271,7 @@
               <div class="swiper-slide">
                 <img src="./assets/Ellipse 7.png" alt="" />
               </div>
-              <div class="swiper-slide active">
+              <div class="swiper-slide">
                 <img src="./assets/image (3).png" alt="" />
               </div>
               <div class="swiper-slide">
@@ -297,8 +298,10 @@
               $2400 on my project and learned a new skill!
             </p>
 
-            <div class="text-center mt-4">
-              <div class="mt-4 text-dark-emphasis">Rita Brown</div>
+            <div class="testimonial-text text-center mt-4">
+              <div class="testimonial-text1 mt-4" style="color: #aa6aaa">
+                Rita Brown
+              </div>
               <div class="mt-4">VP Marketing at Bowl</div>
             </div>
           </div>
@@ -308,13 +311,13 @@
       <!---------------------------------Get in touch section------------------------------->
 
       <section class="get-in-touch-section position-relative">
-        <div class="container-945">
+        <div class="container" style="max-width: 985px">
           <div
             class="get-in-touch d-flex align-items-center justify-content-between flex-column flex-lg-row"
           >
-            <p>Get In touch with us</p>
+            <p class="text-white text-capitalize">Get In touch with us</p>
             <img
-              class="sprial-arrow position-absolute object-fit-cover d-inline-block"
+              class="sprial-arrow position-absolute object-fit-cover"
               src="./assets/spiral-arrow.png"
               alt=""
             />
@@ -326,7 +329,7 @@
 
     <!----------------------------Footer-section------------------------>
     <footer class="footer-section ftr-top">
-      <div class="container-1400">
+      <div class="container" style="max-width: 1324px">
         <div
           class="row d-flex align-items-start justify-content-center flex-wrap flex-column flex-md-row"
         >
@@ -396,9 +399,15 @@
                       placeholder="Enter Your Email"
                       class="ftr-email"
                     />
-                    <a href="#">
-                      <img class="send-icon" src="./assets/send.png" alt=""
-                    /></a>
+
+                    <button href="#">
+                      <img
+                        class="send-icon"
+                        type="submit"
+                        src="./assets/send.png"
+                        alt=""
+                      />
+                    </button>
                   </div>
                 </form>
               </li>
